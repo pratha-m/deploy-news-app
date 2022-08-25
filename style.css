@@ -1,0 +1,35 @@
+section{
+    min-height:82.5vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+section .card{
+    max-height: fit-content;   
+    margin:35px 0px;
+}
+section .card img{
+    max-height: 163px;
+    min-height: 163px;
+}
+section .newsItemsContainer{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+    color: white;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
